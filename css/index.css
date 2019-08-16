@@ -164,7 +164,12 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 400px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  opacity: 0.5;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 .nav h2 {
   margin: 10px 0;
@@ -185,6 +190,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 70px;
 }
 .home .intro img {
   margin-top: 15px;
